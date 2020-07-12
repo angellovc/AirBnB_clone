@@ -60,11 +60,10 @@ h2 {
     text-align: justify;
     margin-top: 23px;
     box-sizing: border-box;
-    color: #fafafa;
+    background-color: #FAFAFA;
     width: 100%;
     border: 1px solid #DDDDDD;
-    border-radius: 4px;
-    background-color: #FFFFFF;}
+    border-radius: 4px;}
 
 .popover li h4{
     margin-left: 20px;}
