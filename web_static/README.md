@@ -74,15 +74,5 @@ What you should learn from this project:
 ### [10. Flex](./101-index.html)
 * Improve the Places section by using Flexible boxes for all Place articles
 
-
-### [11. Responsive design](./102-index.html)
-* Improve the page by adding responsive design to display correctly in mobile or small screens.
-
-
-### [12. Accessibility](./103-index.html)
-* Improve the page by adding Accessibility support
-
----
-
 ## Author
 * **Angello Villegas** - [angellovc](https://github.com/angellovc)
