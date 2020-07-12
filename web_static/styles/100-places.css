@@ -67,3 +67,60 @@ ability to move around */
 .max_guest {background: url(../images/icon_group.png) no-repeat top center;}
 .number_rooms {background: url(../images/icon_bed.png) no-repeat top center;}
 .number_bathrooms {background: url(../images/icon_bath.png) no-repeat top center;}
+
+
+/* amenities and reviews content organization */
+.places article div.amenities, .places .reviews {
+    display: flex;
+    justify-content: left;
+    margin: 40px 0 0 0;
+}
+.places article li h2{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 5px;
+    font-size: 16px;}
+
+/* amenities and reviews list section */
+.places li, .places ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+.places li ul li{
+    display: flex;
+    position: static;
+    height: 40px;
+    align-content: center;}
+
+/* amenities fonts */
+.places .amenities li ul li p{margin-left: 40px;}
+
+/* amenities icons loaded */
+.places .amenities .tv {
+    background: url(../images/icon_tv.png) no-repeat left;
+    background-size: 30px 30px;}
+.places .amenities .wifi {
+    background: url(../images/icon_wifi.png) no-repeat left;
+    background-size: 30px 30px;}
+.places .amenities .pets {
+    background: url(../images/icon_pets.png) no-repeat left top;
+    background-size: 30px 30px;}
+
+/* reviews fonts */
+.places .reviews h3 {
+    margin: 0;
+    color: inherit;
+    padding: 0;
+    font-size: 14px;}
+.places .reviews p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;}
+
+/* reviews list management */
+.places .reviews ul {
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+}
