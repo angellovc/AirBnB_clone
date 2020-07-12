@@ -30,7 +30,7 @@
     height: 100%;
 }
 
-.amenities {
+.filters .amenities {
     box-sizing: border-box;
     width: 25%;
     height: 100%;
@@ -54,7 +54,13 @@ h2 {
     color: black;
     margin-bottom: 1px;}
 
+.popover ul li {
+    list-style: none;
+}
+
 .popover {
+    z-index: 1;
+    list-style-type: none;
     position: relative;
     display: none;
     text-align: justify;

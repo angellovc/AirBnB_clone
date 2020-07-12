@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    position: absolute;
+    position: relative;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -9,5 +9,4 @@ footer {
     background-color: #ffffff;
     background-position: center;
     background-position-x: 20px;
-    top: 100%;
-    bottom: auto;}
+    bottom: 0;}
